@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<form action="SearchServlet" method="get">
+    <div class="input-group search">
+        <span class="input-group-lg">
+            <select name="by" class="select" >
+                <option value="id">活动ID</option>
+                <option value="title" selected="selected">标题</option>
+                <option value="name">发起者</option>
+            </select>
+        </span>
+        <input type="text" class="form-control" name="content" placeholder="在此搜索">
+        <span class="input-group-btn">
+            <button class="btn btn-info" type="submit">Go!</button>
+        </span>
+    </div>
+</form>

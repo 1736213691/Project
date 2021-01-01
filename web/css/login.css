@@ -1,0 +1,48 @@
+.box{
+    font-weight: bold;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 200px);
+    min-width: 600px;
+    min-height: 400px;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.grey{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    background: url("../images/background.jpg");
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity: 95%;
+}
+
+.box>form>div:first-child{
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.box>form>div>input{
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+.email-info{
+    position: absolute;
+    right: 15%;
+}
+
+.box>form>div{
+    padding-top: 50px;
+}
+
+.bottom{
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
